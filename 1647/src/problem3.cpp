@@ -3,20 +3,25 @@
 #include "../headers/mode.h"
 #include "../headers/kmlExport.h"
 #include "../headers/dijkstra.h"
-#include <cstdio>
-#include <cmath>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 void P3() {
     double srcLat, srcLon, destLat, destLon;
-    
 
-    
-    //freopen("input/input3.txt","r",stdin);
-    
+    FILE* f = fopen("input/input3.txt", "r");
+    if (!f) {
+        printf("Error: Could not open input/input3.txt\n");
+        return;
+    }
+
     printf("Enter coordinates #1: Lon Lat\n");
-    scanf("%lf %lf", &srcLon, &srcLat);
+    fscanf(f, "%lf %lf", &srcLon, &srcLat);
     printf("Enter coordinates #2: Lon Lat\n");
-    scanf("%lf %lf", &destLon, &destLat);
+    fscanf(f, "%lf %lf", &destLon, &destLat);
+    
+    fclose(f);
     
     int source = findNearestNode(srcLat, srcLon);
     int target = findNearestNode(destLat, destLon);
@@ -25,13 +30,10 @@ void P3() {
         printf("Error: Could not find nodes\n");
         return;
     }
-    
 
-    
     for (int i = 0; i < numNodes; i++) {
         dist[i] = INF;
-        prev[i] = -1;
-        prevEdge[i] = -1;
+        previous[i] = -1;
         visited[i] = 0;
     }
     
@@ -39,19 +41,14 @@ void P3() {
     int pathEdges[MAX_NODES];
     int pathLen = Dijkstra(source, target, 3, path, pathEdges);
 
-    
     if (pathLen == 1 || dist[target] >= INF) {
         printf("No path found between the selected nodes.\n");
         return;
     }
-    
 
-    
     double totalDistance = 0.0;
     double totalCost = 0.0;
-    
 
-    
     if (fabs(nodes[source].lat - srcLat) > 1e-6 || 
         fabs(nodes[source].lon - srcLon) > 1e-6) {
         double walkDist = haversineDistance(srcLat, srcLon,
@@ -80,8 +77,6 @@ void P3() {
         double costSeg = distSeg * rate;
         totalDistance += distSeg;
         totalCost += costSeg;
-        
-
     }
     
     if (fabs(nodes[target].lat - destLat) > 1e-6 || 
@@ -91,8 +86,7 @@ void P3() {
         totalDistance += walkDist;
     }
     
-    printf("\nTotal Distance: %.3f km\n", totalDistance);
-    printf("Total Cost: Tk %.2f\n", totalCost);
+    printFormattedOutput(3, source, target, 0, 0, 0, 0, path, pathEdges, pathLen, totalDistance, totalCost);
     
     exportPathToKML(path, pathLen, "output/problem3_route.kml", "Problem 3: Cheapest Route (All Modes)", totalDistance, totalCost);
 }

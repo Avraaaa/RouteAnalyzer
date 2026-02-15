@@ -10,10 +10,8 @@ SOURCES = main.cpp \
           src/kmlExport.cpp \
           src/problem1.cpp \
           src/problem2.cpp \
-          src/problem3.cpp \
-          src/problem4.cpp \
-          src/problem5.cpp \
-          src/problem6.cpp
+          src/problem3.cpp 
+
 
 # Object files
 OBJECTS = $(SOURCES:.cpp=.o)

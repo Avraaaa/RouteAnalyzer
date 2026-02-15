@@ -1,19 +1,17 @@
-#include <cstdio>
-#include <cstdlib>
+#include <bits/stdc++.h>
 #include "headers/mode.h"
 #include "headers/nodesAndEdges.h"
 #include "headers/csvParse.h"
 #include "headers/problem1.h"
 #include "headers/problem2.h"
 #include "headers/problem3.h"
-#include "headers/problem4.h"
-#include "headers/problem5.h"
-#include "headers/problem6.h"
+
+using namespace std;
 
 int Dijkstra(int source, int target, int problemType, int path[], int pathEdges[]) {
     for (int i = 0; i < numNodes; i++) {
         dist[i] = INF;
-        prev[i] = -1;
+        previous[i] = -1;
         prevEdge[i] = -1;
         visited[i] = 0;
     }
@@ -77,64 +75,6 @@ int Dijkstra(int source, int target, int problemType, int path[], int pathEdges[
                     edgeWeight = edges[i].distance * UTTARA_RATE;
                 }
             }
-            else if (problemType == 4) {
-                if (edges[i].mode == MODE_CAR) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * CAR_RATE;
-                }
-                else if (edges[i].mode == MODE_METRO) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * METRO_RATE;
-                }
-                else if (edges[i].mode == MODE_BIKOLPO) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * BIKOLPO_RATE;
-                }
-                else if (edges[i].mode == MODE_UTTARA) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * UTTARA_RATE;
-                }
-            }
-            else if (problemType == 5) {
-                double speed = 0;
-                if (edges[i].mode == MODE_CAR) {
-                    validEdge = 1;
-                    speed = 30.0;
-                }
-                else if (edges[i].mode == MODE_METRO) {
-                    validEdge = 1;
-                    speed = 40.0;
-                }
-                else if (edges[i].mode == MODE_BIKOLPO) {
-                    validEdge = 1;
-                    speed = 25.0;
-                }
-                else if (edges[i].mode == MODE_UTTARA) {
-                    validEdge = 1;
-                    speed = 25.0;
-                }
-                if (validEdge == 1) {
-                    edgeWeight = (edges[i].distance / speed) * 60.0;
-                }
-            }
-            else if (problemType == 6) {
-                if (edges[i].mode == MODE_CAR) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * CAR_RATE;
-                }
-                else if (edges[i].mode == MODE_METRO) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * METRO_RATE;
-                }
-                else if (edges[i].mode == MODE_BIKOLPO) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * BIKOLPO_RATE;
-                }
-                else if (edges[i].mode == MODE_UTTARA) {
-                    validEdge = 1;
-                    edgeWeight = edges[i].distance * UTTARA_RATE;
-                }
-            }
             
             if (validEdge == 0) {
                 continue;
@@ -145,14 +85,14 @@ int Dijkstra(int source, int target, int problemType, int path[], int pathEdges[
             
             if (newDist < dist[v]) {
                 dist[v] = newDist;
-                prev[v] = u;
+                previous[v] = u;
                 prevEdge[v] = i;
             }
         }
     }
     
     int pathLen = 0;
-    for (int at = target; at != -1; at = prev[at]) {
+    for (int at = target; at != -1; at = previous[at]) {
         path[pathLen] = at;
         pathEdges[pathLen] = prevEdge[at];
         pathLen++;
@@ -162,8 +102,6 @@ int Dijkstra(int source, int target, int problemType, int path[], int pathEdges[
 }
 
 int main() {
-
-    
     parseRoadmapCSV("Dataset/Roadmap-Dhaka.csv");
     parseMetroCSV("Dataset/Routemap-DhakaMetroRail.csv");
     parseBusCSV("Dataset/Routemap-BikolpoBus.csv", MODE_BIKOLPO);
@@ -173,24 +111,19 @@ int main() {
         printf("No nodes loaded. Please check your CSV files.\n");
         return 1;
     }
-    
 
-    
     while (true) {
         printf("          RouteAnalyzer Menu\n:");
         printf("[1] Shortest Car Route [Problem 1]\n");
         printf("[2] Cheapest Route (Car and Metro) [Problem 2]\n");
         printf("[3] Cheapest Route (All Modes) [Problem 3]\n");
-        printf("[4] Cheapest Route with Schedule [Problem 4]\n");
-        printf("[5] Fastest Route with Schedule [Problem 5]\n");
-        printf("[6] Cheapest Route with Deadline [Problem 6]\n");
-        printf("[7] Quit\n");
+        printf("[4] Quit\n");
         
         int choice;
         printf("Enter Choice your choice: ");
         scanf("%d", &choice);
         
-        if (choice == 7) {
+        if (choice == 4) {
             printf("\nThank you for using RouteAnalyzer!\n");
             break;
         }
@@ -205,15 +138,7 @@ int main() {
             case 3:
                 P3();
                 break;
-            case 4:
-                P4();
-                break;
-            case 5:
-                P5();
-                break;
-            case 6:
-                P6();
-                break;
+
             default:
                 printf("\nInvalid choice. Please try again.\n");
                 break;

@@ -26,7 +26,7 @@ extern int numNodes;
 extern int numEdges;
 
 extern double dist[MAX_NODES];
-extern int prev[MAX_NODES];
+extern int previous[MAX_NODES];
 extern int visited[MAX_NODES];
 extern int prevEdge[MAX_NODES];
 
@@ -34,5 +34,7 @@ int findOrAddNode(double lat, double lon);
 int findNearestNode(double lat, double lon);
 void addEdge(int from, int to, Mode mode, double distance);
 double haversineDistance(double lat1, double lon1, double lat2, double lon2);
+
+void printFormattedOutput(int problemNo, int source, int target, int startHour, int startMin, int deadlineHour, int deadlineMin, int path[], int pathEdges[], int pathLen, double totalDistance, double totalCost);
 
 #endif

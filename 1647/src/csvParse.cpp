@@ -1,9 +1,8 @@
 #include "../headers/csvParse.h"
 #include "../headers/nodesAndEdges.h"
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <cctype>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 void trimInPlace(char *s)
 {

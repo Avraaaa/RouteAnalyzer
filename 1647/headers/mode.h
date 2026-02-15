@@ -17,6 +17,11 @@ typedef enum {
 #define BIKOLPO_RATE 7.0
 #define UTTARA_RATE 10.0
 
+#define SPEED_CAR 30.0
+#define SPEED_METRO 40.0
+#define SPEED_BUS 25.0
+#define SPEED_WALK 5.0
+
 const char* getModeName(Mode mode);
 
 #endif
