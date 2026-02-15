@@ -5,6 +5,7 @@
 #include "headers/problem1.h"
 #include "headers/problem2.h"
 #include "headers/problem3.h"
+#include "headers/problem4.h"
 
 using namespace std;
 
@@ -75,7 +76,25 @@ int Dijkstra(int source, int target, int problemType, int path[], int pathEdges[
                     edgeWeight = edges[i].distance * UTTARA_RATE;
                 }
             }
-            
+            else if (problemType == 4) {
+                if (edges[i].mode == MODE_CAR) {
+                    validEdge = 1;
+                    edgeWeight = edges[i].distance * CAR_RATE;
+                }
+                else if (edges[i].mode == MODE_METRO) {
+                    validEdge = 1;
+                    edgeWeight = edges[i].distance * METRO_RATE;
+                }
+                else if (edges[i].mode == MODE_BIKOLPO) {
+                    validEdge = 1;
+                    edgeWeight = edges[i].distance * BIKOLPO_RATE;
+                }
+                else if (edges[i].mode == MODE_UTTARA) {
+                    validEdge = 1;
+                    edgeWeight = edges[i].distance * UTTARA_RATE;
+                }
+            }
+
             if (validEdge == 0) {
                 continue;
             }
@@ -117,13 +136,14 @@ int main() {
         printf("[1] Shortest Car Route [Problem 1]\n");
         printf("[2] Cheapest Route (Car and Metro) [Problem 2]\n");
         printf("[3] Cheapest Route (All Modes) [Problem 3]\n");
-        printf("[4] Quit\n");
+        printf("[4] Cheapest Route with Schedule [Problem 4]\n");
+        printf("[5] Quit\n");
         
         int choice;
         printf("Enter Choice your choice: ");
         scanf("%d", &choice);
         
-        if (choice == 4) {
+        if (choice == 5) {
             printf("\nThank you for using RouteAnalyzer!\n");
             break;
         }
@@ -138,7 +158,9 @@ int main() {
             case 3:
                 P3();
                 break;
-
+            case 4:
+                P4();
+                break;
             default:
                 printf("\nInvalid choice. Please try again.\n");
                 break;

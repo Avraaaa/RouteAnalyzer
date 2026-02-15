@@ -1,0 +1,157 @@
+Problem No: 4
+Source: (90.376307, 23.746589)
+Destination: (90.421490, 23.778271)
+Start Time: 2:45 PM
+
+[2:45 PM] Ride Car from Node (90.376307, 23.746589) to Node (90.376479, 23.746347), Distance: 0.032 km, Time: 0.1 min, Cost: ৳0.64
+[2:45 PM] Ride Car from Node (90.376479, 23.746347) to Node (90.376998, 23.746650), Distance: 0.063 km, Time: 0.1 min, Cost: ৳1.25
+[2:45 PM] Ride Car from Node (90.376998, 23.746650) to Node (90.377513, 23.746238), Distance: 0.070 km, Time: 0.1 min, Cost: ৳1.39
+[2:45 PM] Ride Car from Node (90.377513, 23.746238) to Node (90.378268, 23.746132), Distance: 0.078 km, Time: 0.2 min, Cost: ৳1.55
+[2:45 PM] Ride Car from Node (90.378268, 23.746132) to Node (90.378733, 23.746997), Distance: 0.107 km, Time: 0.2 min, Cost: ৳2.14
+[2:45 PM] Ride Car from Node (90.378733, 23.746997) to Node (90.379547, 23.747447), Distance: 0.097 km, Time: 0.2 min, Cost: ৳1.94
+[2:45 PM] Ride Car from Node (90.379547, 23.747447) to Metro Shopping (90.380444, 23.747599), Distance: 0.093 km, Time: 0.2 min, Cost: ৳1.86
+[2:45 PM] Ride Bikolpo Bus from Metro Shopping (90.380444, 23.747599) to Node (90.380409, 23.747659), Distance: 0.008 km, Time: 0.0 min, Cost: ৳0.05
+[2:45 PM] Ride Bikolpo Bus from Node (90.380409, 23.747659) to Node (90.380024, 23.748319), Distance: 0.083 km, Time: 0.2 min, Cost: ৳0.58
+[2:45 PM] Ride Bikolpo Bus from Node (90.380024, 23.748319) to Node (90.379863, 23.748594), Distance: 0.035 km, Time: 0.1 min, Cost: ৳0.24
+[2:45 PM] Ride Bikolpo Bus from Node (90.379863, 23.748594) to Node (90.379390, 23.749404), Distance: 0.102 km, Time: 0.2 min, Cost: ৳0.71
+[2:45 PM] Ride Bikolpo Bus from Node (90.379390, 23.749404) to Node (90.379342, 23.749486), Distance: 0.010 km, Time: 0.0 min, Cost: ৳0.07
+[2:45 PM] Ride Bikolpo Bus from Node (90.379342, 23.749486) to Node (90.379030, 23.750021), Distance: 0.067 km, Time: 0.2 min, Cost: ৳0.47
+[2:45 PM] Ride Bikolpo Bus from Node (90.379030, 23.750021) to Node (90.378639, 23.750691), Distance: 0.084 km, Time: 0.2 min, Cost: ৳0.59
+[2:45 PM] Ride Bikolpo Bus from Node (90.378639, 23.750691) to Node (90.378308, 23.751259), Distance: 0.072 km, Time: 0.2 min, Cost: ৳0.50
+[2:45 PM] Ride Bikolpo Bus from Node (90.378308, 23.751259) to Node (90.378098, 23.751619), Distance: 0.045 km, Time: 0.1 min, Cost: ৳0.32
+[2:45 PM] Ride Bikolpo Bus from Node (90.378098, 23.751619) to Node (90.378021, 23.751757), Distance: 0.017 km, Time: 0.0 min, Cost: ৳0.12
+[2:45 PM] Ride Bikolpo Bus from Node (90.378021, 23.751757) to Dhanmondi 27 (90.377642, 23.752432), Distance: 0.084 km, Time: 0.2 min, Cost: ৳0.59
+[2:45 PM] Ride Bikolpo Bus from Dhanmondi 27 (90.377642, 23.752432) to Node (90.377442, 23.752790), Distance: 0.045 km, Time: 0.1 min, Cost: ৳0.31
+[2:45 PM] Ride Bikolpo Bus from Node (90.377442, 23.752790) to Node (90.376922, 23.753719), Distance: 0.116 km, Time: 0.3 min, Cost: ৳0.81
+[2:45 PM] Ride Bikolpo Bus from Node (90.376922, 23.753719) to Node (90.376814, 23.753913), Distance: 0.024 km, Time: 0.1 min, Cost: ৳0.17
+[2:45 PM] Ride Bikolpo Bus from Node (90.376814, 23.753913) to Node (90.376645, 23.754214), Distance: 0.038 km, Time: 0.1 min, Cost: ৳0.26
+[2:45 PM] Ride Bikolpo Bus from Node (90.376645, 23.754214) to Node (90.376467, 23.754532), Distance: 0.040 km, Time: 0.1 min, Cost: ৳0.28
+[2:45 PM] Ride Bikolpo Bus from Node (90.376467, 23.754532) to Node (90.376355, 23.754717), Distance: 0.024 km, Time: 0.1 min, Cost: ৳0.16
+[2:45 PM] Ride Bikolpo Bus from Node (90.376355, 23.754717) to Node (90.376173, 23.755018), Distance: 0.038 km, Time: 0.1 min, Cost: ৳0.27
+[2:45 PM] Ride Bikolpo Bus from Node (90.376173, 23.755018) to Node (90.376059, 23.755205), Distance: 0.024 km, Time: 0.1 min, Cost: ৳0.17
+[2:45 PM] Ride Bikolpo Bus from Node (90.376059, 23.755205) to Node (90.375846, 23.755557), Distance: 0.045 km, Time: 0.1 min, Cost: ৳0.31
+[2:45 PM] Ride Bikolpo Bus from Node (90.375846, 23.755557) to Node (90.375760, 23.755700), Distance: 0.018 km, Time: 0.0 min, Cost: ৳0.13
+[2:45 PM] Ride Bikolpo Bus from Node (90.375760, 23.755700) to Node (90.375578, 23.756000), Distance: 0.038 km, Time: 0.1 min, Cost: ৳0.27
+[2:45 PM] Ride Bikolpo Bus from Node (90.375578, 23.756000) to Asad Gate (90.375289, 23.756477), Distance: 0.061 km, Time: 0.1 min, Cost: ৳0.42
+[2:45 PM] Ride Bikolpo Bus from Asad Gate (90.375289, 23.756477) to Node (90.375033, 23.756900), Distance: 0.054 km, Time: 0.1 min, Cost: ৳0.38
+[2:45 PM] Ride Bikolpo Bus from Node (90.375033, 23.756900) to Node (90.374714, 23.757426), Distance: 0.067 km, Time: 0.2 min, Cost: ৳0.47
+[2:45 PM] Ride Bikolpo Bus from Node (90.374714, 23.757426) to Node (90.374697, 23.757454), Distance: 0.004 km, Time: 0.0 min, Cost: ৳0.02
+[2:45 PM] Ride Bikolpo Bus from Node (90.374697, 23.757454) to Node (90.374299, 23.758112), Distance: 0.084 km, Time: 0.2 min, Cost: ৳0.59
+[2:45 PM] Ride Bikolpo Bus from Node (90.374299, 23.758112) to Node (90.374144, 23.758368), Distance: 0.033 km, Time: 0.1 min, Cost: ৳0.23
+[2:45 PM] Ride Car from Node (90.374144, 23.758368) to Node (90.377331, 23.758460), Distance: 0.325 km, Time: 0.6 min, Cost: ৳6.49
+[2:46 PM] Ride Car from Node (90.377331, 23.758460) to Node (90.377874, 23.758478), Distance: 0.055 km, Time: 0.1 min, Cost: ৳1.11
+[2:46 PM] Ride Car from Node (90.377874, 23.758478) to Node (90.378279, 23.758492), Distance: 0.041 km, Time: 0.1 min, Cost: ৳0.82
+[2:46 PM] Ride Car from Node (90.378279, 23.758492) to Node (90.379187, 23.758538), Distance: 0.093 km, Time: 0.2 min, Cost: ৳1.85
+[2:46 PM] Ride Car from Node (90.379187, 23.758538) to Node (90.379420, 23.758554), Distance: 0.024 km, Time: 0.0 min, Cost: ৳0.48
+[2:46 PM] Ride Car from Node (90.379420, 23.758554) to Node (90.380049, 23.758598), Distance: 0.064 km, Time: 0.1 min, Cost: ৳1.28
+[2:46 PM] Ride Car from Node (90.380049, 23.758598) to Node (90.380886, 23.758655), Distance: 0.085 km, Time: 0.2 min, Cost: ৳1.71
+[2:46 PM] Ride Car from Node (90.380886, 23.758655) to Node (90.381192, 23.758677), Distance: 0.031 km, Time: 0.1 min, Cost: ৳0.62
+[2:46 PM] Ride Car from Node (90.381192, 23.758677) to Node (90.381874, 23.758724), Distance: 0.070 km, Time: 0.1 min, Cost: ৳1.39
+[2:46 PM] Ride Car from Node (90.381874, 23.758724) to Node (90.382585, 23.758774), Distance: 0.073 km, Time: 0.1 min, Cost: ৳1.45
+[2:46 PM] Ride Car from Node (90.382585, 23.758774) to Node (90.383775, 23.758856), Distance: 0.121 km, Time: 0.2 min, Cost: ৳2.43
+[2:46 PM] Ride Metro from Node (90.383775, 23.758856) to Node (90.386337, 23.758997), Distance: 0.261 km, Time: 0.4 min, Cost: ৳1.31
+[2:46 PM] Ride Metro from Node (90.386337, 23.758997) to Node (90.387376, 23.759054), Distance: 0.106 km, Time: 0.2 min, Cost: ৳0.53
+[2:46 PM] Ride Metro from Node (90.387376, 23.759054) to Node (90.388124, 23.759095), Distance: 0.076 km, Time: 0.1 min, Cost: ৳0.38
+[2:46 PM] Ride Metro from Node (90.388124, 23.759095) to Node (90.388575, 23.759120), Distance: 0.046 km, Time: 0.1 min, Cost: ৳0.23
+[2:46 PM] Ride Metro from Node (90.388575, 23.759120) to Node (90.389810, 23.759175), Distance: 0.126 km, Time: 0.2 min, Cost: ৳0.63
+[2:46 PM] Ride Uttara Bus from Node (90.389810, 23.759175) to Node (90.389659, 23.759774), Distance: 0.068 km, Time: 0.2 min, Cost: ৳0.68
+[2:46 PM] Ride Uttara Bus from Node (90.389659, 23.759774) to Node (90.389528, 23.760293), Distance: 0.059 km, Time: 0.1 min, Cost: ৳0.59
+[2:46 PM] Ride Uttara Bus from Node (90.389528, 23.760293) to Node (90.389505, 23.760386), Distance: 0.011 km, Time: 0.0 min, Cost: ৳0.11
+[2:46 PM] Ride Uttara Bus from Node (90.389505, 23.760386) to Node (90.389359, 23.761093), Distance: 0.080 km, Time: 0.2 min, Cost: ৳0.80
+[2:46 PM] Ride Uttara Bus from Node (90.389359, 23.761093) to Node (90.389263, 23.761944), Distance: 0.095 km, Time: 0.2 min, Cost: ৳0.95
+[2:46 PM] Ride Uttara Bus from Node (90.389263, 23.761944) to Node (90.389243, 23.762123), Distance: 0.020 km, Time: 0.0 min, Cost: ৳0.20
+[2:46 PM] Ride Uttara Bus from Node (90.389243, 23.762123) to Node (90.389201, 23.762570), Distance: 0.050 km, Time: 0.1 min, Cost: ৳0.50
+[2:46 PM] Ride Uttara Bus from Node (90.389201, 23.762570) to Node (90.389184, 23.762764), Distance: 0.022 km, Time: 0.1 min, Cost: ৳0.22
+[2:46 PM] Ride Uttara Bus from Node (90.389184, 23.762764) to Node (90.389168, 23.762951), Distance: 0.021 km, Time: 0.1 min, Cost: ৳0.21
+[2:46 PM] Ride Uttara Bus from Node (90.389168, 23.762951) to Node (90.389124, 23.763534), Distance: 0.065 km, Time: 0.2 min, Cost: ৳0.65
+[2:46 PM] Ride Uttara Bus from Node (90.389124, 23.763534) to Node (90.389106, 23.764035), Distance: 0.056 km, Time: 0.1 min, Cost: ৳0.56
+[2:46 PM] Ride Uttara Bus from Node (90.389106, 23.764035) to Node (90.389060, 23.764362), Distance: 0.037 km, Time: 0.1 min, Cost: ৳0.37
+[2:46 PM] Ride Uttara Bus from Node (90.389060, 23.764362) to Bijoy Sarani (90.389064, 23.765148), Distance: 0.087 km, Time: 0.2 min, Cost: ৳0.87
+[2:46 PM] Ride Uttara Bus from Bijoy Sarani (90.389064, 23.765148) to Node (90.389108, 23.766260), Distance: 0.124 km, Time: 0.3 min, Cost: ৳1.24
+[2:46 PM] Ride Uttara Bus from Node (90.389108, 23.766260) to Node (90.389116, 23.767015), Distance: 0.084 km, Time: 0.2 min, Cost: ৳0.84
+[2:46 PM] Ride Uttara Bus from Node (90.389116, 23.767015) to Node (90.389269, 23.768159), Distance: 0.128 km, Time: 0.3 min, Cost: ৳1.28
+[2:46 PM] Ride Uttara Bus from Node (90.389269, 23.768159) to Node (90.389864, 23.772397), Distance: 0.475 km, Time: 1.1 min, Cost: ৳4.75
+[2:47 PM] Ride Uttara Bus from Node (90.389864, 23.772397) to Node (90.389965, 23.773739), Distance: 0.150 km, Time: 0.4 min, Cost: ৳1.50
+[2:47 PM] Ride Uttara Bus from Node (90.389965, 23.773739) to Node (90.389800, 23.775235), Distance: 0.167 km, Time: 0.4 min, Cost: ৳1.67
+[2:47 PM] Ride Uttara Bus from Node (90.389800, 23.775235) to Jahangir Gate (90.390938, 23.775444), Distance: 0.118 km, Time: 0.3 min, Cost: ৳1.18
+[2:47 PM] Ride Uttara Bus from Jahangir Gate (90.390938, 23.775444) to Node (90.392729, 23.775788), Distance: 0.186 km, Time: 0.4 min, Cost: ৳1.86
+[2:47 PM] Ride Uttara Bus from Node (90.392729, 23.775788) to Node (90.393522, 23.776111), Distance: 0.088 km, Time: 0.2 min, Cost: ৳0.88
+[2:47 PM] Ride Uttara Bus from Node (90.393522, 23.776111) to Node (90.393562, 23.776136), Distance: 0.005 km, Time: 0.0 min, Cost: ৳0.05
+[2:47 PM] Ride Uttara Bus from Node (90.393562, 23.776136) to Node (90.393935, 23.776365), Distance: 0.046 km, Time: 0.1 min, Cost: ৳0.46
+[2:47 PM] Ride Uttara Bus from Node (90.393935, 23.776365) to Node (90.394166, 23.776498), Distance: 0.028 km, Time: 0.1 min, Cost: ৳0.28
+[2:47 PM] Ride Uttara Bus from Node (90.394166, 23.776498) to Node (90.394372, 23.776531), Distance: 0.021 km, Time: 0.1 min, Cost: ৳0.21
+[2:47 PM] Ride Uttara Bus from Node (90.394372, 23.776531) to Node (90.395367, 23.777088), Distance: 0.119 km, Time: 0.3 min, Cost: ৳1.19
+[2:47 PM] Ride Uttara Bus from Node (90.395367, 23.777088) to Node (90.395467, 23.777147), Distance: 0.012 km, Time: 0.0 min, Cost: ৳0.12
+[2:47 PM] Ride Uttara Bus from Node (90.395467, 23.777147) to Node (90.396186, 23.777570), Distance: 0.087 km, Time: 0.2 min, Cost: ৳0.87
+[2:47 PM] Ride Uttara Bus from Node (90.396186, 23.777570) to Node (90.396376, 23.777680), Distance: 0.023 km, Time: 0.1 min, Cost: ৳0.23
+[2:47 PM] Ride Uttara Bus from Node (90.396376, 23.777680) to Node (90.397302, 23.778129), Distance: 0.107 km, Time: 0.3 min, Cost: ৳1.07
+[2:47 PM] Ride Uttara Bus from Node (90.397302, 23.778129) to Node (90.397542, 23.778193), Distance: 0.025 km, Time: 0.1 min, Cost: ৳0.25
+[2:47 PM] Ride Uttara Bus from Node (90.397542, 23.778193) to Node (90.397620, 23.778192), Distance: 0.008 km, Time: 0.0 min, Cost: ৳0.08
+[2:47 PM] Ride Uttara Bus from Node (90.397620, 23.778192) to Node (90.397737, 23.778192), Distance: 0.012 km, Time: 0.0 min, Cost: ৳0.12
+[2:47 PM] Ride Uttara Bus from Node (90.397737, 23.778192) to Node (90.397957, 23.778191), Distance: 0.022 km, Time: 0.1 min, Cost: ৳0.22
+[2:47 PM] Ride Uttara Bus from Node (90.397957, 23.778191) to Node (90.398352, 23.778190), Distance: 0.040 km, Time: 0.1 min, Cost: ৳0.40
+[2:47 PM] Ride Uttara Bus from Node (90.398352, 23.778190) to Node (90.398359, 23.778318), Distance: 0.014 km, Time: 0.0 min, Cost: ৳0.14
+[2:47 PM] Ride Uttara Bus from Node (90.398359, 23.778318) to Node (90.398429, 23.778817), Distance: 0.056 km, Time: 0.1 min, Cost: ৳0.56
+[2:47 PM] Ride Uttara Bus from Node (90.398429, 23.778817) to Node (90.398525, 23.779681), Distance: 0.097 km, Time: 0.2 min, Cost: ৳0.97
+[2:47 PM] Ride Uttara Bus from Node (90.398525, 23.779681) to Node (90.398530, 23.779732), Distance: 0.006 km, Time: 0.0 min, Cost: ৳0.06
+[2:47 PM] Ride Uttara Bus from Node (90.398530, 23.779732) to Node (90.398599, 23.780114), Distance: 0.043 km, Time: 0.1 min, Cost: ৳0.43
+[2:47 PM] Ride Uttara Bus from Node (90.398599, 23.780114) to Node (90.398665, 23.780476), Distance: 0.041 km, Time: 0.1 min, Cost: ৳0.41
+[2:47 PM] Ride Uttara Bus from Node (90.398665, 23.780476) to Node (90.398782, 23.781108), Distance: 0.071 km, Time: 0.2 min, Cost: ৳0.71
+[2:47 PM] Ride Car from Node (90.398782, 23.781108) to Node (90.399476, 23.781063), Distance: 0.071 km, Time: 0.1 min, Cost: ৳1.42
+[2:47 PM] Ride Car from Node (90.399476, 23.781063) to Node (90.400282, 23.781009), Distance: 0.082 km, Time: 0.2 min, Cost: ৳1.64
+[2:47 PM] Ride Car from Node (90.400282, 23.781009) to Node (90.401256, 23.780961), Distance: 0.099 km, Time: 0.2 min, Cost: ৳1.99
+[2:47 PM] Ride Car from Node (90.401256, 23.780961) to Node (90.402421, 23.780908), Distance: 0.119 km, Time: 0.2 min, Cost: ৳2.37
+[2:47 PM] Ride Car from Node (90.402421, 23.780908) to Node (90.403043, 23.780880), Distance: 0.063 km, Time: 0.1 min, Cost: ৳1.27
+[2:47 PM] Ride Car from Node (90.403043, 23.780880) to Node (90.404152, 23.780831), Distance: 0.113 km, Time: 0.2 min, Cost: ৳2.26
+[2:47 PM] Ride Car from Node (90.404152, 23.780831) to Node (90.405578, 23.780701), Distance: 0.146 km, Time: 0.3 min, Cost: ৳2.92
+[2:47 PM] Ride Car from Node (90.405578, 23.780701) to Node (90.406974, 23.780485), Distance: 0.144 km, Time: 0.3 min, Cost: ৳2.88
+[2:47 PM] Ride Car from Node (90.406974, 23.780485) to Node (90.407050, 23.780471), Distance: 0.008 km, Time: 0.0 min, Cost: ৳0.16
+[2:47 PM] Ride Car from Node (90.407050, 23.780471) to Node (90.408242, 23.780302), Distance: 0.123 km, Time: 0.2 min, Cost: ৳2.45
+[2:47 PM] Ride Car from Node (90.408242, 23.780302) to Node (90.408502, 23.780301), Distance: 0.026 km, Time: 0.1 min, Cost: ৳0.53
+[2:47 PM] Ride Car from Node (90.408502, 23.780301) to Node (90.409452, 23.780321), Distance: 0.097 km, Time: 0.2 min, Cost: ৳1.93
+[2:47 PM] Ride Car from Node (90.409452, 23.780321) to Node (90.409629, 23.780329), Distance: 0.018 km, Time: 0.0 min, Cost: ৳0.36
+[2:47 PM] Ride Car from Node (90.409629, 23.780329) to Node (90.411903, 23.780377), Distance: 0.231 km, Time: 0.5 min, Cost: ৳4.63
+[2:47 PM] Ride Car from Node (90.411903, 23.780377) to Node (90.412210, 23.780388), Distance: 0.031 km, Time: 0.1 min, Cost: ৳0.63
+[2:47 PM] Ride Car from Node (90.412210, 23.780388) to Node (90.412644, 23.780380), Distance: 0.044 km, Time: 0.1 min, Cost: ৳0.88
+[2:47 PM] Ride Car from Node (90.412644, 23.780380) to Node (90.413018, 23.780356), Distance: 0.038 km, Time: 0.1 min, Cost: ৳0.76
+[2:47 PM] Ride Car from Node (90.413018, 23.780356) to Node (90.413938, 23.780336), Distance: 0.094 km, Time: 0.2 min, Cost: ৳1.87
+[2:47 PM] Ride Car from Node (90.413938, 23.780336) to Node (90.414741, 23.780338), Distance: 0.082 km, Time: 0.2 min, Cost: ৳1.63
+[2:47 PM] Ride Car from Node (90.414741, 23.780338) to Node (90.414964, 23.780342), Distance: 0.023 km, Time: 0.0 min, Cost: ৳0.45
+[2:47 PM] Ride Car from Node (90.414964, 23.780342) to Node (90.415577, 23.780354), Distance: 0.062 km, Time: 0.1 min, Cost: ৳1.25
+[2:47 PM] Ride Car from Node (90.415577, 23.780354) to Node (90.416603, 23.780355), Distance: 0.104 km, Time: 0.2 min, Cost: ৳2.09
+[2:47 PM] Ride Car from Node (90.416603, 23.780355) to Node (90.416836, 23.780248), Distance: 0.027 km, Time: 0.1 min, Cost: ৳0.53
+[2:47 PM] Ride Car from Node (90.416836, 23.780248) to Node (90.416978, 23.780463), Distance: 0.028 km, Time: 0.1 min, Cost: ৳0.56
+[2:47 PM] Ride Car from Node (90.416978, 23.780463) to Node (90.417749, 23.780503), Distance: 0.079 km, Time: 0.2 min, Cost: ৳1.57
+[2:47 PM] Ride Car from Node (90.417749, 23.780503) to Node (90.417860, 23.780503), Distance: 0.011 km, Time: 0.0 min, Cost: ৳0.23
+[2:47 PM] Ride Car from Node (90.417860, 23.780503) to Node (90.419592, 23.780534), Distance: 0.176 km, Time: 0.4 min, Cost: ৳3.53
+[2:47 PM] Ride Car from Node (90.419592, 23.780534) to Node (90.421524, 23.780809), Distance: 0.199 km, Time: 0.4 min, Cost: ৳3.98
+[2:47 PM] Ride Car from Node (90.421524, 23.780809) to Node (90.421529, 23.780517), Distance: 0.032 km, Time: 0.1 min, Cost: ৳0.65
+[2:47 PM] Ride Car from Node (90.421529, 23.780517) to Node (90.421529, 23.780383), Distance: 0.015 km, Time: 0.0 min, Cost: ৳0.30
+[2:47 PM] Ride Car from Node (90.421529, 23.780383) to Node (90.421625, 23.780267), Distance: 0.016 km, Time: 0.0 min, Cost: ৳0.32
+[2:47 PM] Ride Car from Node (90.421625, 23.780267) to Node (90.421629, 23.780091), Distance: 0.020 km, Time: 0.0 min, Cost: ৳0.39
+[2:47 PM] Ride Car from Node (90.421629, 23.780091) to Node (90.421630, 23.779809), Distance: 0.031 km, Time: 0.1 min, Cost: ৳0.63
+[2:47 PM] Ride Car from Node (90.421630, 23.779809) to Node (90.421635, 23.779681), Distance: 0.014 km, Time: 0.0 min, Cost: ৳0.28
+[2:47 PM] Ride Car from Node (90.421635, 23.779681) to Node (90.421660, 23.779459), Distance: 0.025 km, Time: 0.0 min, Cost: ৳0.50
+[2:47 PM] Ride Car from Node (90.421660, 23.779459) to Node (90.421714, 23.779057), Distance: 0.045 km, Time: 0.1 min, Cost: ৳0.90
+[2:47 PM] Ride Car from Node (90.421714, 23.779057) to Node (90.421720, 23.779021), Distance: 0.004 km, Time: 0.0 min, Cost: ৳0.08
+[2:47 PM] Ride Car from Node (90.421720, 23.779021) to Node (90.421746, 23.778816), Distance: 0.023 km, Time: 0.0 min, Cost: ৳0.46
+[2:47 PM] Ride Car from Node (90.421746, 23.778816) to Node (90.421518, 23.778757), Distance: 0.024 km, Time: 0.0 min, Cost: ৳0.48
+[2:47 PM] Ride Car from Node (90.421518, 23.778757) to Node (90.421514, 23.778543), Distance: 0.024 km, Time: 0.0 min, Cost: ৳0.48
+[2:47 PM] Ride Car from Node (90.421514, 23.778543) to Node (90.421490, 23.778271), Distance: 0.030 km, Time: 0.1 min, Cost: ৳0.61
+
+Arrival Time: 3:05 PM
+Total Distance: 9.210 km
+Total Travel Time: 19.9 minutes (0.3 hours)
+Total Cost: ৳126.58
+Exported path to route_problem4.kml
+
+-------Mr Efficient--------
+[1] Shortest Car Route [Problem 1]
+[2] Cheapest Route(Car and Metro) [Problem 2]
+[3] Cheapest Route(Car, Metro and Bus) [Problem 3]
+[4] Cheapest Route with Time Schedule [Problem 4]
+[5] Fastest Route with Time Schedule [Problem 5]
+[6] Cheapest Route with Deadline [Problem 6]
+[7] Quit
+-----------------------------
+Enter Choice: -----------------------------

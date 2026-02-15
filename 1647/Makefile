@@ -10,7 +10,8 @@ SOURCES = main.cpp \
           src/kmlExport.cpp \
           src/problem1.cpp \
           src/problem2.cpp \
-          src/problem3.cpp 
+          src/problem3.cpp \
+		  src/problem4.cpp
 
 
 # Object files

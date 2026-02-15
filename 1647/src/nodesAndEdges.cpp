@@ -1,7 +1,7 @@
 #include "../headers/nodesAndEdges.h"
-#include <cmath>
-#include <cstring>
-#include <cstdio>
+#include <bits/stdc++.h>
+
+using namespace std;
 
 Node nodes[MAX_NODES];
 Edge edges[MAX_NODES * 10];
@@ -208,7 +208,8 @@ void printFormattedOutput(int problemNo, int source, int target, int startHour, 
                 "[1] Shortest Car Route [Problem 1]\n"
                 "[2] Cheapest Route(Car and Metro) [Problem 2]\n"
                 "[3] Cheapest Route(Car, Metro and Bus) [Problem 3]\n"
-                "[4] Quit\n"
+                "[4] Cheapest Route with Time Schedule [Problem 4]\n"
+                "[5] Quit\n"
                 "-----------------------------\n"
                 "Enter Choice: -----------------------------\n");
     
